@@ -1,0 +1,6 @@
+#comentario
+User-agent:*
+Allow:/
+Dissallow:/*pdf
+User-agent:bingbot
+Disallow:/
