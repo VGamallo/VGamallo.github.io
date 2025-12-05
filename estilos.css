@@ -1,3 +1,10 @@
+body{
+margin:0 auto;
+width:80%;
+border:1 px solid black;
+padding:30px;
+background-color: rgb(235, 224, 223);
+}
 h1{
     color:rgb(179, 6, 6);
     text-align:center;
@@ -15,6 +22,24 @@ h2{
 h3{
     border-bottom: 2px solid rgb(124, 9, 5);                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 }
+ol{
+    padding:0;
+    font-size:0;
+}
+li{
+    display: inline-block;
+    width: calc(100%/4);
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+a{
+    color: azure;
+    text-decoration: none;
+
+}
 footer{
     color: blue;
 }
@@ -26,3 +51,4 @@ p.parrafoNormal{
     padding:20px;
     border:1px solid black;
 }
+
