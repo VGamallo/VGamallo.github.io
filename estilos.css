@@ -12,16 +12,22 @@ h1{
     text-decoration: underline 2px solid rgb(143, 4, 4);
     background-color: orange;
     border:1px solid black;
+    font-family: Nosifer;
+}
+h1:hover{
+background-color: black;
 }
 h2{
     color:rgb(192, 42, 4);
     text-align:left;
-    font-size:16px;
+    font-size:20px;
     border: 2px solid black;
-}
-h3{
-    border-bottom: 2px solid rgb(124, 9, 5);                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-}
+    font-weight: bold;
+    font-family:Neuton;
+}   
+h2:hover{
+    background-color: black;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                           
 ol{
     padding:0;
     font-size:0;
@@ -35,20 +41,50 @@ li{
     padding: 10px 0;
     text-align: center;
 }
+li:hover{
+    background-color: rgb(240, 158, 5);
+    color:azure;
+}
 a{
     color: azure;
     text-decoration: none;
-
 }
 footer{
+    margin-top: 20px;
     color: blue;
 }
-p.parrafoNormal{
-    color: rgb(235, 15, 169);
-    font-size:20px;
-    text-indent: 20px;
-    margin-left:100px;
-    padding:20px;
-    border:1px solid black;
+.politica-priv{
+    color: brown;
 }
+.contacto{
+    color: brown;
+}
+.quienes-somos{
+    color: brown;
+}
+figure{
+    float: left;
+}
+.img1{
+border: 2px solid black;
+}
+.img2{
+border: 2px solid black;
+}
+.img3{
+border: 2px solid black;
+}
+figure:nth-child(2){
+    float: inherit;
+}
+.img4{
+    border: 2px solid black;
+}
+.img5{
+    border: 2px solid black;
+}
+p{
+    font-family: Cagliostro;
+}
+
 
